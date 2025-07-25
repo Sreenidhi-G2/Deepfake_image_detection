@@ -33,7 +33,8 @@ ALLOWED_HOSTS = [
 CORS_ALLOWED_ORIGINS = [
     "https://image-deepfake.vercel.app", 
     "https://image-deepfake-backend.onrender.com",
-    "http://localhost:5173",  # For local development
+    "http://localhost:5173",
+    "http://localhost:8080"  # For local development
 
 ]
 
